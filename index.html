@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav id="navbar" class="nav">
+        <ul class="nav-list">
+            <li><a href="#welcome-section">About</a></li>
+            <li><a href="#projects">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="welcome-section" class="welcome-section">
+        <div class="welcome-content">
+            <div class="text-content">
+                <h1><span style="color: #8A2BE2;">Hey,</span> I'm Mariama Faisal</h1>
+                <p>I am a passionate front-end web developer with a knack for creating clean and responsive designs. I enjoy building user-friendly websites that combine functionality with creativity.</p>
+            </div>
+            <div class="image-content">
+                <img src="images/profile.jpg" alt="Mariama Faisal" class="circular" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <h2 class="projects-section-header">A showcase of my best work and creations.</h2>
+        <div class="projects-grid">
+            <a href="https://marifaiz.github.io/GO2COD_WD_03/" target="_blank" class="project project-tile">
+                <img class="project-image" src="images/calculator_img.png" alt="Calculator Project">
+                <p class="project-title"><span class="code">&lt;</span> JavaScript Web Calculator <span class="code">/&gt;</span></p>
+            </a>
+            <a href="https://marifaiz.github.io/GO2COD_WD_02/" target="_blank" class="project project-tile">
+                <img class="project-image" src="images/quizimg.png" alt="Quiz App">
+                <p class="project-title"><span class="code">&lt;</span> Quiz App <span class="code">/&gt;</span></p>
+            </a>
+            <a href="https://marifaiz.github.io/GO2COD_WD_05/" target="_blank" class="project project-tile">
+              <img class="project-image" src="images/profile2.png" alt="project">
+              <p class="project-title"><span class="code">&lt;</span> Personal Portfolio <span class="code">/&gt;</span></p>
+            </a>
+            <a href="https://marifaiz.github.io/GO2COD_WD_04/" target="_blank" class="project project-tile">
+                <img class="project-image" src="images/gallery.png" alt="Image Gallery">
+                <p class="project-title"><span class="code">&lt;</span> Responsive Image Gallery <span class="code">/&gt;</span></p>
+            </a>
+            <a href="https://marifaiz.github.io/GO2COD_WD_01/" target="_blank" class="project project-tile">
+                <img class="project-image" src="images/todo_img.png" alt="To-Do List App">
+                <p class="project-title"><span class="code">&lt;</span> To-Do List App <span class="code">/&gt;</span></p>
+            </a>
+            <a href="https://marifaiz.github.io/Survey-form/" target="_blank" class="project project-tile">
+                <img class="project-image" src="images/survey form.png" alt="Survey Form">
+                <p class="project-title"><span class="code">&lt;</span> Survey Form <span class="code">/&gt;</span></p>
+            </a>
+            <a href="https://marifaiz.github.io/cafe-menu/" target="_blank" class="project project-tile hidden">
+                <img class="project-image" src="images/coffe_img.png" alt="Cafe Shop Menu">
+                <p class="project-title"><span class="code">&lt;</span> Cafe Shop Menu <span class="code">/&gt;</span></p>
+            </a>
+        </div>
+
+        <a href="#projects" class="btn btn-show-all" onclick="showAllProjects()">Show all <i class="fas fa-chevron-right"></i></a>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="contact-section-header">
+            <h2>Let's connect!</h2>
+            <p>Have a project or idea? I'd love to hear from you.</p>
+        </div>
+        <div class="contact-links">
+            <a href="https://www.linkedin.com/in/mariamafaisal" target="_blank" class="btn contact-details"><i class="fa-brands fa-linkedin" style="color: #0077b5;"></i> LinkedIn</a>
+            <a href="https://github.com/marifaiz" target="_blank" class="btn contact-details"><i class="fab fa-github" style="color: black;"></i> GitHub</a>
+            <a href="https://www.youtube.com/channel/UCTfpNX6HvduXzl3e0EHJb2w" target="_blank" class="btn contact-details"><i class="fa-brands fa-youtube" style="color: red;"></i> YouTube</a>
+            <a href="mailto:marifaiz18@gmail.com" class="btn contact-details"><i class="fas fa-at"></i> Send a Mail</a>
+            <a href="tel:+233557020189" class="btn contact-details"><i class="fas fa-mobile-alt" style="color: bisque;"></i> Call Me</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mariama Faisal. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
